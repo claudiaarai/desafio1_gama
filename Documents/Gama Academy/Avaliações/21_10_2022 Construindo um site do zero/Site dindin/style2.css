@@ -1,0 +1,401 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    width: 1440px;
+    height: 117px;
+    left: 0px;
+    top: 0px;
+    background-color: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header img {
+    position: absolute;
+    width: 244px;
+    height: 77px;
+    left: 82px;
+    top: 20px;
+}
+
+header ul {
+    position: absolute;
+    width: 309px;
+    height: 23px;
+    left: 1028px;
+    top: 47px;
+    list-style: none;
+    color: #FDFDFD;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    display: flex;
+}
+
+.intro {
+    display: flex;
+    align-items: flex-end;
+}
+
+.intro h1 {
+    position: absolute;
+    width: 512px;
+    height: 126px;
+    left: 202px;
+    top: 210px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 63px;
+    color: #FF4081;
+    align-self: flex-start;
+}
+
+.intro p {
+    position: absolute;
+    width: 461px;
+    height: 186px;
+    left: 202px;
+    top: 358px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    align-self: flex-start;
+}
+
+.intro img {
+    position: absolute;
+    align-self: flex-end;
+    width: 100%;
+    width: 380px;
+    height: 381px;
+    top: 197px;
+    left: 751px;
+}
+
+.video1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 462px;
+    height: 261px;
+    top: 734px;
+    left: 213px;
+    border: 3px solid #8E8E8E;
+}
+
+.circulo1 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 399px;
+    top: 820px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+.play1 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 56px;
+    height: 53px;
+    left: 417.39px;
+    top: 837.37px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+#aula1 h2 {
+    position: absolute;
+    width: 512px;
+    height: 40px;
+    left: 751px;
+    top: 734px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+#aula1 p {
+    position: absolute;
+    width: 501px;
+    height: 195px;
+    left: 751px;
+    top: 800px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-align: justify;
+}
+
+#aula1 hr {
+    position: absolute;
+    width: 1244px;
+    height: 3px;
+    left: 98px;
+    top: 1068px;
+    background-color: #C4C4C4;
+}
+
+.video2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 462px;
+    height: 261px;
+    top: 1146px;
+    left: 213px;
+    border: 3px solid #8E8E8E;
+}
+
+.circulo2 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 399px;
+    top: 1232px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+.play2 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 56px;
+    height: 53px;
+    left: 417.39px;
+    top: 1249.37px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+#aula2 h2 {
+    position: absolute;
+    width: 106px;
+    height: 40px;
+    left: 750px;
+    top: 1146px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+#aula2 p {
+    position: absolute;
+    width: 501px;
+    height: 195px;
+    left: 750px;
+    top: 1212px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-align: justify;
+}
+
+#aula2 hr {
+    position: absolute;
+    width: 1244px;
+    height: 3px;
+    left: 98px;
+    top: 1480px;
+    background: #C4C4C4;
+}
+
+.video3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 462px;
+    height: 261px;
+    top: 1558px;
+    left: 212px;
+    border: 3px solid #8E8E8E;
+}
+
+.circulo3 {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 398px;
+    top: 1644px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+}
+
+.play3 {
+    box-sizing: border-box;
+    position: absolute;
+    width: 56px;
+    height: 53px;
+    left: 417.39px;
+    top: 1661.37px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+#aula3 h2 {
+    position: absolute;
+    width: 512px;
+    height: 40px;
+    left: 750px;
+    top: 1558px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+#aula3 p {
+    position: absolute;
+    width: 501px;
+    height: 195px;
+    left: 750px;
+    top: 1624px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-align: justify;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    top: 1894px;
+    width: 1440px;
+    height: 207px;
+    bottom: 0;
+    background-color: #2E948A;
+}
+
+#rodape img {
+    position: absolute;
+    left: 8.89%;
+    right: 69.44%;
+    top: 25.6%;
+    bottom: 25.4%;
+    width: 312px;
+    height: 101.43px;
+    top: 53px;
+    left: 128px;
+}
+
+#rodape ul {
+    position: absolute;
+    left: 43.26%;
+    right: 51.81%;
+    top: 25.6%;
+    bottom: 34.3%;
+    width: 71px;
+    height: 83px;
+    top: 53px;
+    left: 623px;
+}
+
+#rodape ul li {
+    list-style: none;
+}
+
+#rodape ul li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+#botao1 button {
+    box-sizing: border-box;
+    position: absolute;
+    left: 70.42%;
+    right: 9.51%;
+    top: 24.15%;
+    bottom: 51.21%;
+    border: 2px solid #FFFFFF;
+    width: 289px;
+    height: 51px;
+    top: 50px;
+    left: 1014px;
+    border-radius: 62px;
+    background-color: #2E948A;
+}
+
+#botao1 button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    right: 12.36%;
+    bottom: 57.97%;
+    top: 30.92%;
+    left: 73.26%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+}
+
+#botao2 button {
+    box-sizing: border-box;
+    position: absolute;
+    left: 70.42%;
+    right: 9.51%;
+    top: 55.07%;
+    bottom: 20.29%;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    width: 289px;
+    height: 51px;
+    top: 114px;
+    left: 1014px;
+    background-color: #2E948A;
+}
+
+#botao2 button a {
+    text-decoration: none;
+    left: 73.26%;
+    right: 12.36%;
+    top: 61.84%;
+    bottom: 26.57%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 500px) {
+    html {
+        font-size: 0.5em;
+    }
+}

@@ -1,0 +1,452 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 90rem;
+    font-size: 16px;
+}
+
+header {
+    position: absolute;
+    display: flex;
+    width: 90rem;
+    height: 7.313rem;
+    left: 0rem;
+    top: 0rem;
+    margin: 0 auto;
+    background-color: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+header img {
+    position: absolute;
+    max-width: 100%;
+    width: 15.25rem;
+    height: 4.813rem;
+    left: 5.125rem;
+    top: 1.25rem;
+}
+
+header ul {
+    position: absolute;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 1.438rem;
+    text-transform: uppercase;
+    display: flex;
+    position: absolute;
+}
+
+header ul li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+header ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: #FDFDFD;
+    font-size: 1em;
+    width: 309px;
+    height: 23px;
+    left: 1028px;
+    top: 47px;
+}
+
+#curso a {
+    position: absolute;
+    width: 80px;
+    height: 23px;
+    left: 1028px;
+    top: 47px;    
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 1.438em;  
+    text-transform: uppercase;    
+    color: #FDFDFD;
+}
+
+#blog a {
+    position: absolute;
+    width: 55px;
+    height: 23px;
+    left: 1150px;
+    top: 47px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 1.438em;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+#contato a {
+    position: absolute;
+    width: 95px;
+    height: 23px;
+    left: 1242px;
+    top: 47px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25em;
+    line-height: 1.438em;
+    text-transform: uppercase;
+    color: #FDFDFD;
+}
+
+.conteudo {
+    height: 100vh;
+    margin: 0;
+    width: 1440px;
+}
+
+#intro h1 {
+    position: absolute;
+    width: 263px;
+    height: 69px;
+    left: 82px;
+    top: 198px;
+    color: #FF4081;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+}
+
+#intro p {
+    position: absolute;
+    width: 317px;
+    height: 23px;
+    left: 82px;
+    top: 267px;
+    color: #555555;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#curso1 img {
+    position: absolute;
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    width: 380px;
+    height: 381px;
+    top: 385px;
+    left: 112px;
+}
+
+#curso1 h2 {
+    color: #FF4081;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.188em;
+    line-height: 2.5em;
+    position: absolute;
+    width: 512px;
+    height: 40px;
+    left: 545px;
+    top: 406px;
+}
+
+#curso1 p {
+    color: #000000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 1.313em;
+    position: absolute;
+    width: 724px;
+    height: 105px;
+    left: 545px;
+    top: 483px;
+    text-align: justify;
+}
+
+#curso1 button {
+    position: absolute;
+    text-decoration: none;
+    width: 233px;
+    height: 51px;
+    left: 545px;
+    top: 641px;
+    background: #419488;
+    border-radius: 62px;
+    border-style: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.438em;
+    text-align: center;
+    color: #FFFFFF;
+    position: absolute;
+}
+
+#curso1 button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#curso1 hr {
+    position: absolute;
+    width: 1244px;
+    height: 5px;
+    left: 82px;
+    top: 834px;
+    background-color: #C4C4C4;
+}
+
+#curso2 img {
+    position: absolute;
+    max-width: 100%;
+    width: 380px;
+    height: 385px;
+    top: 946px;
+    left: 112px;
+}
+
+#curso2 h2 {
+    color: #FF4081;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.188em;
+    line-height: 2.5em;
+    text-align: right;
+    position: absolute;
+    width: 373px;
+    height: 40px;
+    left: 545px;
+    top: 947px;
+}
+
+#curso2 p {
+    color: #000000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 1.313em;
+    position: absolute;
+    width: 724px;
+    height: 105px;
+    left: 545px;
+    top: 1024px;
+    text-align: justify;
+}
+
+#curso2 button {
+    position: absolute;
+    width: 233px;
+    height: 51px;
+    left: 545px;
+    top: 1199px;
+    background: #419488;
+    border-radius: 62px;
+    border: 0px;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.438em;
+    text-align: center;
+}
+
+#curso2 button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+#curso2 hr {
+    position: absolute;
+    width: 1244px;
+    height: 5px;
+    left: 98px;
+    top: 1424px;
+    background-color: #C4C4C4;
+}
+
+#curso3 img {
+    box-sizing: border-box;
+    max-width: 100%;
+    position: absolute;
+    width: 380px;
+    height: 498px;
+    top: 1522px;
+    left: 128px;
+}
+
+#curso3 h2 {
+    color: #FF4081;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.188em;
+    line-height: 2.5em;
+    text-align: right;
+    position: absolute;
+    width: 425px;
+    height: 40px;
+    left: 534px;
+    top: 1581px;
+}
+
+#curso3 p {
+    color: #000000;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.125em;
+    line-height: 1.313em;
+    position: absolute;
+    width: 724px;
+    height: 105px;
+    left: 560px;
+    top: 1658px;
+    text-align: justify;
+}
+
+#curso3 button {
+    position: absolute;
+    width: 233px;
+    height: 51px;
+    left: 561px;
+    top: 1789px;
+    background: #2E948A;
+    border-radius: 62px;
+    border: 0px;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.438em;
+    text-align: center;
+}
+
+#curso3 button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.footer {
+    position: absolute;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: 0;
+    top: 2222px;
+    width: 1440px;
+    height: 207px;
+    background-color: #2E948A;
+}
+
+#rodape img {
+    position: absolute;
+    max-width: 100%;
+    left: 8.89%;
+    right: 69.44%;
+    top: 25.6%;
+    bottom: 25.4%;
+    width: 312px;
+    height: 101.43px;
+    top: 53px;
+    left: 128px;
+}
+
+#rodape ul {
+    position: absolute;
+    left: 43.26%;
+    right: 51.81%;
+    top: 25.6%;
+    bottom: 34.3%;
+    width: 71px;
+    height: 83px;
+    top: 53px;
+    left: 623px;
+}
+
+#rodape ul li {
+    list-style: none;
+}
+
+#rodape ul li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.438em;
+    color: #FFFFFF;
+}
+
+#botao1 button {
+    box-sizing: border-box;
+    position: absolute;
+    left: 70.42%;
+    right: 9.51%;
+    top: 24.15%;
+    bottom: 51.21%;
+    border: 2px solid #FFFFFF;
+    width: 289px;
+    height: 51px;
+    top: 50px;
+    left: 1014px;
+    border-radius: 62px;
+    background-color: #2E948A;
+}
+
+#botao1 button a {
+    text-decoration: none;
+    color: #FFFFFF;
+    right: 12.36%;
+    bottom: 57.97%;
+    top: 30.92%;
+    left: 73.26%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.438em;
+    text-align: center;
+}
+
+#botao2 button {
+    box-sizing: border-box;
+    position: absolute;
+    left: 70.42%;
+    right: 9.51%;
+    top: 55.07%;
+    bottom: 20.29%;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    width: 289px;
+    height: 51px;
+    top: 114px;
+    left: 1014px;
+    background-color: #2E948A;
+}
+
+#botao2 button a {
+    text-decoration: none;
+    left: 73.26%;
+    right: 12.36%;
+    top: 61.84%;
+    bottom: 26.57%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25em;
+    line-height: 1.438em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+
