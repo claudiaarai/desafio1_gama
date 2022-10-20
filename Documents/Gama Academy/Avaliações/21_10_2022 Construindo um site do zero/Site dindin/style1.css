@@ -223,9 +223,8 @@ header ul li a {
     font-family: 'Ubuntu';
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
-    line-height: 40px;
-    text-align: right;
+    font-size: 2.188em;
+    line-height: 2.5em;
     position: absolute;
     width: 373px;
     height: 40px;
@@ -292,9 +291,8 @@ header ul li a {
     color: #FF4081;
     font-style: normal;
     font-weight: 700;
-    font-size: 35px;
-    line-height: 40px;
-    text-align: right;
+    font-size: 2.188em;
+    line-height: 2.5em;
     position: absolute;
     width: 425px;
     height: 40px;
