@@ -399,3 +399,12 @@ header ul {
         font-size: 0.5em;
     }
 }
+
+
+header4 img {
+    position: absolute;
+    width: 244px;
+    height: 77px;
+    left: 82px;
+    top: 20px;
+}
